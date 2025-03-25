@@ -9,43 +9,45 @@
 <body>
     <nav class="header">
         <div class="logo">
-            Header Logo
+            Cooper Station
         </div>
         <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
+            <li><a href="#info">Jump to Info</a></li>
+            <li><a href="#quote">Jump to Quote</a></li>
+            <li><a href="#footer">Jump to News</a></li>
         </ul>
     </nav>
     
     <section class="top">
+        <div class="top-container">
         <div class="hero">
-            <div class="text">This website is awesome</div>
-            <div class="sec">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
-            <button class="btn">Sign up</button>
+            <div class="text">Interstellar</div>
+            <div class="sec">This website is inspired by Interstellar (2014).</div>
+            <button class="btn"><a href="https://www.youtube.com/watch?v=QFKVBjGL1I0" target="_blank">Trailer</a></button>
         </div>
         <div class="hero-image">
-            <img class="hero-image" src="./img/wolf4.jpg" alt="">
+            <img class="hero-image" src="./img/earth.jpg" alt="">
+        </div>
         </div>
     </section>
-    <section class="mid">
+    <section id="info" class="mid">
         <div class="info-text">Some random information.</div>
         <div class="images">
             <div class="card">
-                <img class="info-img" src="./img/wolf3.jpg" alt="">
+                <img class="info-img" src="./img/black_hole.jpg" alt="">
                 <p class="card-text">This is Some random text to fill the empty text area.</p>
             </div>
             <div class="card">
-                <img class="info-img" src="./img/wolf3.jpg" alt="">
+                <img class="info-img" src="./img/black_hole.jpg" alt="">
                 <p class="card-text">This is Some random text to fill the empty text area.</p>
             </div>
             <div class="card">
-                <img class="info-img" src="./img/wolf3.jpg" alt="">
+                <img class="info-img" src="./img/black_hole.jpg" alt="">
                 <p class="card-text">This is Some random text to fill the empty text area.</p>
             </div>
         </div>
     </section>
-    <section class="quote">
+    <section id="quote" class="quote">
         <div class="quote-text">
             "We used to look up at the sky and wonder at our place in the stars. Now we just look down, and worry about our place in the dirt."
         </div>
@@ -53,11 +55,15 @@
     </section>
     <section class="cta">
         <div class="cta-container">
-            <div class="cta-text">Call to action! It's time!</div>
-            <div class="cta-sub">Sign up for out product by clicking that button right over there!</div>
-            <button class="cta-btn">Sign up</button>
+            <div class="cta-texts">    
+                <div class="cta-text">Call to action! It's time!</div>
+                <div class="cta-sub">Sign up for out product by clicking that button right over there!</div>
+            </div>
+            <div class="cta-button">
+                <button class="cta-btn" onclick="alert('This is just a dummy button!')">Sign up</button>
+            </div>
         </div>
     </section>
-    <div class="footer">Copy &copy; The Odin Project 2025</div>
+    <div id="footer" class="footer">Copy &copy; The Odin Project 2025</div>
 </body>
 </html>
